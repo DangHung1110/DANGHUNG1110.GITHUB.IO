@@ -1,0 +1,503 @@
+html,body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.set1 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    .set1_1 {
+        width: 30%;
+        height: 100%;
+        .nicelily {
+            width: 100%;
+            height: 80%;
+            border: solid;
+            overflow: hidden;
+            position: relative;
+            cursor: pointer;
+            img {
+                margin-left: -50px;
+                opacity: 0.8;
+                transition: all ease 0.5s;
+
+                &:hover {
+                    opacity: 1;
+                    transform: translateX(20px);
+                }
+                
+            }
+                h2 {
+                position: absolute;
+                top: 150px;
+                text-transform: uppercase;
+                color: white;
+                margin-left: 20px;
+                transition: all ease 0.35s;
+
+            }
+
+            &:hover h2 {
+                transform: translateY(-20px);   
+            }
+
+
+            p {
+                position: absolute;
+                top: 180px;
+                text-transform: uppercase;
+                margin-left: 20px;
+                color: white;
+                opacity: 0;
+                transition: all ease 0.5s;
+                font-size: 16px;
+            }
+            &:hover p {
+                opacity: 1;
+                transform: translateY(-20px);
+            }
+        }
+        & h1 {
+            text-transform: uppercase;
+            margin-left: 45%;
+            font-size: 20px;
+        }
+    }
+    .set1_2 {
+        width: 30%;
+        height: 100%;
+        .layla {
+            width: 100%;
+            height: 80%;
+            border: solid;
+            overflow: hidden;
+            position: relative;
+            cursor: pointer;
+
+            img {
+                transition: all ease 0.5s;
+                margin-bottom: -50px;
+            }
+
+            .crazy_layla {
+                display: flex;
+                position: absolute;
+                top:30%;
+                left: 35%;
+                color: white;
+                text-transform: uppercase;
+                font-size: 20px;
+                transition: all ease 0.5s;
+
+                .c_layla {
+                    font-weight: bold;
+                }
+            }
+
+            p {
+                position: absolute;
+                top: 50%;
+                left: 16%;
+                text-transform: uppercase;
+                color: white;
+                text-align: center;
+                opacity: 0;
+                transition: all ease 0.5s;
+            }
+
+            .edge {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 40px;
+                opacity: 0;
+                transition: all ease 0.5s;
+                .edge1 {
+                    position: absolute;
+                    height: 1px;
+                    width: 1%;
+                    background-color: black;
+                    left: 20px;
+                    transition: all ease 0.3s;
+                }
+
+                .edge3 {
+                    position: absolute;
+                    height: 1px;
+                    width: 1%;
+                    background-color: black;
+                    left: 20px;
+                    top: 205px; 
+                    transition: all ease 0.3s;
+                }
+
+                .edge4 {
+                    position: absolute;
+                    height: 1px;
+                    width: 1%;
+                    background-color: black;
+                    transform: rotate(90deg);
+                    top: 105px;
+                    left: -80px;
+                    transition: all ease 0.3s;
+                }
+
+                .edge2 {
+                    position: absolute;
+                    height: 1px;
+                    width: 1%;
+                    background-color: black;
+                    transform: rotate(90deg);
+                    right: -80px;
+                    top: 105px;
+                    transition: all ease 0.3s;
+                }
+            }
+
+            &:hover img {
+                opacity: 0.8;
+                transform: translateY(20px);
+            }
+
+            &:hover .edge {
+                opacity: 1;
+            }
+
+            &:hover .edge1 {
+                width: 90%;
+            }
+
+            &:hover .edge3 {
+                width: 90%;
+            }
+
+            &:hover .edge2 {
+                width: 55%;
+            }
+
+            &:hover .edge4 {
+                width: 55%;
+            }
+
+            &:hover .crazy_layla {
+                top: 45%;
+            }
+
+            &:hover p {
+                opacity: 1;
+            }
+        }
+
+        & h1 {
+            text-transform: uppercase;
+            margin-left: 43%;
+            font-size: 20px;
+        }
+    }
+    .set1_3 {
+        width: 30%;
+        height: 100%;
+        .honey {
+            width: 100%;
+            height: 80%;
+            border: solid;
+            position: relative;
+            cursor: pointer;
+
+            img {
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                transition: all ease 0.5s;
+            }
+
+            .dreamy_honey {
+                position: absolute;
+                display: flex;
+                top: 70%;
+                left: 10%;
+                text-transform: uppercase;
+                font-size: 20px;
+                color: white;
+                transition: all ease 0.5s;
+
+                .d_honey {
+                    font-weight: bold;
+                }
+
+                .now {
+                    opacity: 0;
+                    transition: all ease 0.5s;
+                }
+            }
+
+            .bot {
+                width: 100%;
+                height: 1%;
+                position: absolute;
+                bottom: 0;
+                background-color: white;
+                opacity: 0;
+                transition: all ease 0.5s;
+            }
+
+            &:hover img {
+                opacity: 0.8;
+            }
+
+            &:hover .dreamy_honey {
+                top: 80%;
+            }
+
+            &:hover .now {
+                opacity: 1;
+            }
+
+            &:hover .bot {
+                height: 10%;
+                opacity: 1;
+            }
+        }
+
+        & h1 {
+            text-transform: uppercase;
+            margin-left: 43%;
+            font-size: 20px;
+        }
+    }
+}
+
+.set2 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+
+    .set2_1 {
+        width: 30%;
+        height: 100%;
+        .julia {
+            width: 100%;
+            height: 80%;
+            border: solid;
+            overflow: hidden;
+            position: relative;
+            cursor: pointer;
+            
+            img {
+                transition: all ease 0.5s;
+            }
+
+            .passionate_julia {
+                position: absolute;
+                top: 10%;
+                left: 10%;
+                display: flex;
+                text-transform: uppercase;
+                color: white;
+                font-size: 20px;
+
+                .p_julia {
+                    font-weight: bold;
+                }
+            }
+
+            .list {
+                width: 100%;
+                height: 40%;
+                position: absolute;
+                top: 20%;
+                left: 10%;
+                color: black;
+                font-size: 16px;
+
+                .line {
+                    width: 55%;
+                    height: 32%;
+                    background-color: white;
+                    margin-top: 5px;
+                    text-align: center;
+
+                    p {
+                        padding-top: 10px;
+                    }
+                }
+
+                .line1 {
+                    transform: translateX(-300px);
+                    transition: all ease 0.5s;
+                }
+
+                .line2 {
+                    transform: translateX(-400px);
+                    transition: all ease 0.5s;
+                }
+
+                .line3 {
+                    transform: translateX(-500px);
+                    transition: all ease 0.5s;
+                }
+            }
+
+            &:hover .line1 {
+                transform: translateX(0px);
+            }
+
+            &:hover .line2 {
+                transform: translateX(0px);
+            }
+
+            &:hover .line3 {
+                transform: translateX(0px);
+            }
+
+            &:hover img {
+                transform: scale(1.2);
+            }
+        }
+        & h1 {
+            text-transform: uppercase;
+            margin-left: 43%;
+            font-size: 20px;
+        }
+    }
+    .set2_2 {
+        width: 30%;
+        height: 100%;
+        .selena {
+            width: 100%;
+            height: 80%;
+            border: solid;
+            overflow: hidden;
+            position: relative;
+            cursor: pointer;
+
+            img {
+                width: 100%;
+                height: 100%;
+                transition: all ease 0.5s;
+            }
+
+            .happyselena {
+                position: absolute;
+                display: flex;
+                top: 20%;
+                font-size: 20px;
+                color: white;
+                left: 33%;
+                text-transform: uppercase;
+                transition: all ease 0.5s;
+
+                .h_selena {
+                    font-weight: bold;
+                }
+            }
+
+            p {
+                position: absolute;
+                text-transform: uppercase;
+                color: white;
+                top: 16%;
+                left: 22%;
+                font-size: 16px;
+                opacity: 0;
+                transition: all ease 0.5s;
+            }
+
+            &:hover img {
+                transform: scale(0.9);
+            }
+
+            &:hover p {
+                opacity: 1;
+            }
+
+            &:hover .happyselena {
+                transform: translateY(-25px);
+            }
+        }
+
+        & h1 {
+            text-transform: uppercase;
+            margin-left: 43%;
+            font-size: 20px;
+        }
+    }
+
+    .set2_3 {
+        width: 30%;
+        height: 100%;
+        .kira {
+            width: 100%;
+            height: 80%;
+            border: solid;
+            overflow: hidden;
+            position: relative;
+            cursor: pointer;
+
+            img {
+                width: 100%;
+                height: 100%;
+                opacity: 0.9;
+                transition: all ease 0.5s;
+            }
+
+            .darkkira {
+                position: absolute;
+                display: flex;
+                font-size: 30px;
+                top: 10%;
+                left: 10%;
+                color: white;
+                text-transform: uppercase;
+
+                .d_kira {
+                    font-weight: bold;
+                }
+            }
+
+            .icon {
+                display: flex;
+                position: absolute;
+                width: 80%;
+                height: 1px;
+                background-color: white;
+                top: 70px;
+                left: 40px;
+                overflow: hidden;
+                justify-content: flex-start;
+                align-items: center;
+                color: black;
+                gap: 20px;
+                transition: all ease 0.5s;
+
+                i {
+                    margin-left: 20px;
+                    transition: all ease 0.5s;
+                    &:hover {
+                        color: gray;
+                    }
+                }
+            }
+
+            &:hover img {
+                opacity: 0.5;
+            }
+
+            &:hover .icon {
+                transform: translateY(20px);
+                height: 70px;
+            }
+        }
+
+        & h1 {
+            text-transform: uppercase;
+            margin-left: 43%;
+            font-size: 20px;
+        }
+    }
+}
