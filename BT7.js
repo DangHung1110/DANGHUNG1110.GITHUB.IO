@@ -22,7 +22,7 @@ SubmitInput.addEventListener("click", () => {
                 background-color: ${color}; 
                 width: ${width}px; 
                 height: ${height}px;
-                border-radius: 8px;
+                border-radius: 8px;   
             "
     >
         <!-- Hiển thị chiều rộng -->
